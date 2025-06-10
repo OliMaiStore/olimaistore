@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>OliMai Store - Muy Pronto</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
@@ -15,16 +15,16 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
       text-align: center;
-      overflow-x: hidden;
+      min-height: 100vh;
     }
 
     img.logo {
-      max-width: 300px;
+      max-width: 350px;
+      margin-top: 40px;
       margin-bottom: 20px;
-      border-radius: 20px;
-      box-shadow: 0 0 25px #ff00ff;
+      border-radius: 15px;
+      box-shadow: 0 0 25px #ff00ff66;
     }
 
     h1 {
@@ -34,16 +34,16 @@
 
     p {
       font-size: 1.2rem;
-      margin-bottom: 20px;
+      margin: 10px 0 30px;
     }
 
     .botones a {
       display: inline-block;
       margin: 10px;
-      padding: 14px 28px;
+      padding: 15px 25px;
       background-color: #ff00cc;
       color: white;
-      border-radius: 8px;
+      border-radius: 10px;
       text-decoration: none;
       font-weight: bold;
       transition: background 0.3s ease;
@@ -54,12 +54,12 @@
     }
 
     footer {
-      position: absolute;
-      bottom: 15px;
-      font-size: 0.85rem;
-      color: #ccc;
+      font-size: 0.8rem;
+      color: #aaa;
+      padding: 20px;
     }
 
+    /* Botón de WhatsApp flotante */
     .whatsapp-float {
       position: fixed;
       bottom: 20px;
@@ -71,23 +71,24 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      text-decoration: none;
-      box-shadow: 0 0 10px #25D366;
-      z-index: 999;
+      box-shadow: 0 0 15px #25D366;
+      z-index: 1000;
     }
 
     .whatsapp-float img {
-      width: 32px;
-      height: 32px;
+      width: 35px;
+      height: 35px;
     }
   </style>
 </head>
 <body>
-  <!-- Portada principal -->
-  <img class="logo" src="portada.png" alt="OliMai Store Portada Oficial" />
+
+  <!-- Imagen portada -->
+  <img class="logo" src="portada.png" alt="OliMai Store Portada Oficial"/>
 
   <h1>¡Muy pronto!</h1>
-  <p>Estamos construyendo algo mágico para ti.<br> Tecnología y recuerdos en un solo clic 🌟</p>
+  <p>Estamos construyendo algo mágico para ti.<br>
+     Tecnología y recuerdos en un solo clic 🌟</p>
 
   <div class="botones">
     <a href="https://www.instagram.com/olimai_store/" target="_blank">Instagram</a>
@@ -96,13 +97,13 @@
     <a href="mailto:ventas@olimaistore.cl">Correo</a>
   </div>
 
-  <!-- Logo flotante -->
+  <footer>
+    © 2025 OliMai Store. Todos los derechos reservados. — Canal Oficial 🔰
+  </footer>
+
   <a class="whatsapp-float" href="https://wa.me/56929933458?text=Hola%20OliMai%20Store%2C%20quiero%20personalizar%20mi%20cuadro%20o%20regalo%20y%20hacer%20mi%20pedido%20ahora" target="_blank">
-    <img src="whatsapp-icon.png" alt="WhatsApp" />
+    <img src="WhatsApp%20Image%202025-06-10%20at%2001.00.51%20(1).jpeg" alt="WhatsApp">
   </a>
 
-  <footer>
-    © 2025 OliMai Store. Todos los derechos reservados. – Canal Oficial 🔒
-  </footer>
 </body>
 </html>
