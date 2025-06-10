@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>OliMai Store - Muy Pronto</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
   <style>
     body {
       margin: 0;
@@ -20,12 +20,12 @@
       overflow-x: hidden;
     }
 
-    img, h1, p, .botones, footer {
+    img.logo, h1, p, .botones, footer {
       opacity: 0;
       animation: fadeIn 1.5s ease forwards;
     }
 
-    img { animation-delay: 0.3s; }
+    img.logo { animation-delay: 0.3s; }
     h1 { animation-delay: 0.6s; }
     p { animation-delay: 0.9s; }
     .botones { animation-delay: 1.2s; }
@@ -76,7 +76,6 @@
       color: #999;
     }
 
-    /* Botón de WhatsApp flotante */
     .whatsapp-float {
       position: fixed;
       bottom: 20px;
@@ -100,10 +99,9 @@
   </style>
 </head>
 <body>
-  <img class="logo" src="https://i.ibb.co/6gcfS35/olimai-logo-main.png" alt="OliMai Store Logo">
+  <img class="logo" src="https://i.ibb.co/6gcfS35/olimai-logo-main.png" alt="OliMai Store Logo" />
   <h1>¡Muy pronto!</h1>
-  <p>Estamos construyendo algo mágico para ti.<br>
-     Tecnología y recuerdos en un solo clic 🌟</p>
+  <p>Estamos construyendo algo mágico para ti.<br/>Tecnología y recuerdos en un solo clic 🌟</p>
 
   <div class="botones">
     <a href="https://www.instagram.com/olimai_store/" target="_blank">Instagram</a>
@@ -112,5 +110,10 @@
     <a href="mailto:ventas@olimaistore.cl">Correo</a>
   </div>
 
-  <footer>
-    &copy; 2025 OliMai Store. Todos los derechos rese
+  <footer>&copy; 2025 OliMai Store. Todos los derechos reservados.</footer>
+
+  <a class="whatsapp-float" href="https://wa.me/56929933458?text=Hola%20OliMai%20Store%2C%20quiero%20personalizar%20mi%20cuadro%20o%20regalo%20y%20hacer%20mi%20pedido%20ahora" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"/>
+  </a>
+</body>
+</html>
